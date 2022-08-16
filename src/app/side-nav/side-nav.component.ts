@@ -5,6 +5,9 @@ import { Component, Input, OnInit } from '@angular/core';
   templateUrl: './side-nav.component.html',
   styleUrls: ['./side-nav.component.css']
 })
+/**
+ * Provides side-navigation
+ */
 export class SideNavComponent implements OnInit {
   @Input() sideNavStatus:boolean=false;
   list=[
